@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: f49b66d3995bc457b85680b8cd824aa0
+timeCreated: 1464341274
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Calipso
+    100002: Deimos
+    100004: Earth
+    100006: Earth_clouds
+    100008: Europe
+    100010: Ganimede
+    100012: IO
+    100014: Jupiter_Planet
+    100016: Mars
+    100018: Mars_001
+    100020: Mercury
+    100022: Moon
+    100024: Neptune
+    100026: Phobos
+    100028: satellite_1
+    100030: Satellite_2
+    100032: Satellite_3
+    100034: Satellite_4
+    100036: Saturn
+    100038: Saturn_ring
+    100040: //RootNode
+    100042: Sun
+    100044: Titan
+    100046: Uran_Ring
+    100048: Uranus
+    100050: Venus
+    400000: Calipso
+    400002: Deimos
+    400004: Earth
+    400006: Earth_clouds
+    400008: Europe
+    400010: Ganimede
+    400012: IO
+    400014: Jupiter_Planet
+    400016: Mars
+    400018: Mars_001
+    400020: Mercury
+    400022: Moon
+    400024: Neptune
+    400026: Phobos
+    400028: satellite_1
+    400030: Satellite_2
+    400032: Satellite_3
+    400034: Satellite_4
+    400036: Saturn
+    400038: Saturn_ring
+    400040: //RootNode
+    400042: Sun
+    400044: Titan
+    400046: Uran_Ring
+    400048: Uranus
+    400050: Venus
+    2300000: Calipso
+    2300002: Deimos
+    2300004: Earth
+    2300006: Earth_clouds
+    2300008: Europe
+    2300010: Ganimede
+    2300012: IO
+    2300014: Jupiter_Planet
+    2300016: Mars
+    2300018: Mars_001
+    2300020: Mercury
+    2300022: Moon
+    2300024: Neptune
+    2300026: Phobos
+    2300028: satellite_1
+    2300030: Satellite_2
+    2300032: Satellite_3
+    2300034: Satellite_4
+    2300036: Saturn
+    2300038: Saturn_ring
+    2300040: Sun
+    2300042: Titan
+    2300044: Uran_Ring
+    2300046: Uranus
+    2300048: Venus
+    3300000: Calipso
+    3300002: Deimos
+    3300004: Earth
+    3300006: Earth_clouds
+    3300008: Europe
+    3300010: Ganimede
+    3300012: IO
+    3300014: Jupiter_Planet
+    3300016: Mars
+    3300018: Mars_001
+    3300020: Mercury
+    3300022: Moon
+    3300024: Neptune
+    3300026: Phobos
+    3300028: satellite_1
+    3300030: Satellite_2
+    3300032: Satellite_3
+    3300034: Satellite_4
+    3300036: Saturn
+    3300038: Saturn_ring
+    3300040: Sun
+    3300042: Titan
+    3300044: Uran_Ring
+    3300046: Uranus
+    3300048: Venus
+    4300000: Phobos
+    4300002: Deimos
+    4300004: Jupiter_Planet
+    4300006: Europe
+    4300008: Ganimede
+    4300010: IO
+    4300012: Calipso
+    4300014: satellite_1
+    4300016: Satellite_2
+    4300018: Satellite_3
+    4300020: Satellite_4
+    4300022: Mercury
+    4300024: Sun
+    4300026: Venus
+    4300028: Earth
+    4300030: Saturn
+    4300032: Saturn_ring
+    4300034: Uranus
+    4300036: Uran_Ring
+    4300038: Neptune
+    4300040: Mars
+    4300042: Moon
+    4300044: Earth_clouds
+    4300046: Titan
+    4300048: Mars_001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

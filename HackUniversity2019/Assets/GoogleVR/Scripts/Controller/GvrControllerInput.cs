@@ -507,16 +507,7 @@ public class GvrControllerInput : MonoBehaviour {
         OnPostControllerInputUpdated();
       }
     }
-		HandeController editorEmulatorObj = FindObjectOfType<HandeController> (); 
-		TextMesh fd = FindObjectOfType<TextMesh> ();
-		fd.text = "";
-		fd.text += editorEmulatorObj.GetComponent<HandeController> ().activeAnimation.ToString ();
-		if (editorEmulatorObj.GetComponent<HandeController> ().activeAnimation) {
-			//instance.Update ();
-			instance.controllerState.orientation= Quaternion.Euler (-22f, 0, 0);
-		} else {
-			//Debug.Log ("instance.controllerState.orientation" + instance.controllerState.orientation);
-		}
+
   }
 
   void OnDestroy() {

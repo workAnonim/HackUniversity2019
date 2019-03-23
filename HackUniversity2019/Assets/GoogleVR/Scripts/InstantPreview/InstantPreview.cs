@@ -155,10 +155,7 @@ namespace Gvr.Internal {
 
     void Start() {
       // Gets local version name and prints it out.
-			Debug.Log("FindObjectOfType<HandeController> ()"+FindObjectOfType<HandeController> ().name);
-			TextMesh fd = FindObjectOfType<TextMesh> ();
-			fd.text = "sasq1";
-			DebugConsole.Log ("ss2.1.1="+transform.gameObject.name);
+		
       var sb = new StringBuilder(256);
       GetVersionString(sb, (uint)sb.Capacity);
       var localVersionName = sb.ToString();
@@ -506,25 +503,10 @@ namespace Gvr.Internal {
     }
 
     private static void SetTransformFromMatrix(Transform transform, Matrix4x4 matrix) {
-			HandeController editorEmulatorObj = FindObjectOfType<HandeController> (); 
-			TextMesh fd = FindObjectOfType<TextMesh> ();
-			fd.text = "";
-			fd.text += editorEmulatorObj.GetComponent<HandeController> ().activeAnimation.ToString ();
-			DebugConsole.Log ("editorEmulatorObj="+editorEmulatorObj.gameObject.name);
-			DebugConsole.Log ("activeAnimation="+editorEmulatorObj.GetComponent<HandeController> ().activeAnimation);
-			if (editorEmulatorObj.GetComponent<HandeController> ().activeAnimation) {
-				DebugConsole.Log ("ss2.1.1="+transform.gameObject.name);
-				fd.text += transform.gameObject.name;
-				var position = matrix.GetRow (3);
-				position.x *= -1;
-				transform.localPosition = position;
-				transform.localRotation = Quaternion.Euler (-22f, 0, 0);
-			} else {
 				var position = matrix.GetRow (3);
 				position.x *= -1;
 				transform.localPosition = position;
 				transform.localRotation = Quaternion.LookRotation (matrix.GetColumn (2), matrix.GetColumn (1));
-			}
     }
 
     private static void StartInstantPreviewActivity(string adbPath) {

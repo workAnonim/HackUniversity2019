@@ -31,7 +31,6 @@ public class GvrEditorEmulator : MonoBehaviour {
   // updated will get the wrong value applied by GvrEditorEmulator intsead.
 #if UNITY_EDITOR
   public static GvrEditorEmulator Instance { get; private set; }
-	public HandeController objHandController;	
   private const string AXIS_MOUSE_X = "Mouse X";
   private const string AXIS_MOUSE_Y = "Mouse Y";
 
